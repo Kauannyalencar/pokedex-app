@@ -1,10 +1,11 @@
-<h1 align="center"><img src=""/> PokeDex</h1>
-![Badge](https://img.shields.io/badge/license-MIT-blue) 
+<h1 align="center"> PokeDex</h1>
 <p align="center">
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
+
+![Badge](https://img.shields.io/badge/license-MIT-blue) 
 
 A responsive Pokédex app built with **React** and consuming data from the public [PokeApi](https://pokeapi.co/). 
 
