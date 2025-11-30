@@ -40,3 +40,4 @@ $ npm install
 # Start the project
 $ npm start
 ```
+<a href="https://kauannyalencar.github.io/pokedex-app/"> **Live Version** </a>
