@@ -1,0 +1,104 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    background-color: #181818;
+    border-radius: 8px;
+    padding: .5rem;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fdfdfd;
+    transition: .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    }
+
+.card * {
+    position: relative;
+    z-index: 2;
+}
+
+.card h3 {
+    font-weight: 400;
+}
+
+.imgs_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_card_img {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    opacity: 0.22;
+    /* background-color: #181818; */
+    z-index: 0;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.poke_img {
+    width: 80%;
+}
+
+.infor_front {
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.type {
+    display: flex;
+    gap: 5px;
+    padding: 0.5rem 0;
+    letter-spacing: .056rem;
+}
+
+.type li {
+    min-width: 70px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 0.4rem .5rem;
+}
+
+
+.pokemon_index, .type {
+    color: #fdfdfd;
+    font-weight: bold;
+}
+
+.not_found{
+    color: #454e4c;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 390px) {
+    .card_container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 80%;
+    }
+}

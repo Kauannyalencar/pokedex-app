@@ -1,0 +1,25 @@
+.app {
+  /* background-color: #151483; */
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carregar_mais {
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fdfdfd;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  background-color: #181818;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+}
+
+.carregar_mais:hover{
+  transform: scale(1.05);
+}
